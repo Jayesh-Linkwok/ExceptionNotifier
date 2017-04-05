@@ -2,9 +2,9 @@
   "name": "exception-notifier",
   "version": "1.0.0",
   "description": "Simple app for logging and notifying exceptions",
-  "main": "index.js",
+  "main": "logger.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node logger.js"
   },
   "keywords": [
     "exception",
@@ -14,10 +14,6 @@
   "author": "Jayesh Bhadja",
   "license": "MIT",
   "dependencies": {
-    "node-exception-notifier": "0.0.1",
-    "nodemailer-sendmail-transport": "^1.0.0",
     "winston": "^2.3.1",
-    "winston-email": "^0.1.0",
-    "winston-mailer": "0.0.1"
   }
 }
